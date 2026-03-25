@@ -2,4 +2,5 @@
      "java.project.sourcePaths": ["src"]
 }
 /* thêm cái này vào vì khi tạo project java trong vscode thì nó sẽ không tự nhận thư mục src là thư mục chứa mã nguồn
-nên khi chạy sẽ báo lỗi không tìm thấy lớp Transaction, thêm cái này vào để vscode biết rằng thư mục src là thư mục chứa mã nguồn và có thể tìm thấy các lớp trong đó */
+nên khi chạy sẽ báo lỗi không tìm thấy lớp Transaction,
+thêm cái này vào để vscode biết rằng thư mục src là thư mục chứa mã nguồn và có thể tìm thấy các lớp trong đó */
