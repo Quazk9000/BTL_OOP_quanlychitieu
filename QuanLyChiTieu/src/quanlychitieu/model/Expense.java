@@ -14,6 +14,6 @@ public class Expense extends Transaction {
 
     @Override
     public String getType() {
-        return "CHI"; // đây là khoản chi tiêu
+        return "chi tieu: "; // đây là khoản chi tiêu
     }
 }

@@ -13,6 +13,6 @@ public class Income extends Transaction {
 
     @Override
     public String getType() {
-        return "Income"; // đây là khoản thu nhập
+        return "thu nhap: "; // đây là khoản thu nhập
     }
 }
