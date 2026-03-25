@@ -4,12 +4,12 @@ public class Expense extends Transaction {
 
     public Expense(double amount, String date,
         String description, String category) {
-        super(amount, date, description, category);
+            super(amount, date, description, category);
     }
 
     public Expense(int id, double amount, String date,
-            String description, String category) {
-        super(id, amount, date, description, category);
+        String description, String category) {
+            super(id, amount, date, description, category);
     }
 
     @Override

@@ -74,7 +74,7 @@ public abstract class Transaction {
     // toString để in ra màn hình
     @Override
     public String toString() {
-        return String.format("[%d] %s | %s | %.0f VND | %s | %s",
+        return String.format("[%d] %s | %s | %.0f VND | %s | %s", //hiển thị gọn gàng hơn
                 id, getType(), date, amount, category, description);
     }
 }
