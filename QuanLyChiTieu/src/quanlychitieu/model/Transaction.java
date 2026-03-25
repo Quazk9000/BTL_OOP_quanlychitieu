@@ -1,3 +1,4 @@
+// Đây là lớp trừu tượng và là lớp cha của Income(thu nhập) và Expense(chi tiêu), chứa các thuộc tính và phương thức chung của cả hai loại giao dịch
 package quanlychitieu.model;
 
 public abstract class Transaction {
